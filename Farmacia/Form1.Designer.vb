@@ -23,6 +23,7 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.Boton = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
@@ -36,11 +37,24 @@ Partial Class Form1
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Farmacias benavides similares del ahorro del pueblo "
         '
+        'Boton
+        '
+        Me.Boton.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Boton.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Boton.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Boton.Location = New System.Drawing.Point(316, 142)
+        Me.Boton.Name = "Boton"
+        Me.Boton.Size = New System.Drawing.Size(234, 66)
+        Me.Boton.TabIndex = 1
+        Me.Boton.Text = "Botón Prueba"
+        Me.Boton.UseVisualStyleBackColor = False
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Boton)
         Me.Controls.Add(Me.Label1)
         Me.Name = "Form1"
         Me.Text = "Form1"
@@ -50,4 +64,5 @@ Partial Class Form1
     End Sub
 
     Friend WithEvents Label1 As Label
+    Friend WithEvents Boton As Button
 End Class
