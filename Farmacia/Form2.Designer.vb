@@ -35,7 +35,8 @@ Partial Class Form2
         Me.Label7 = New System.Windows.Forms.Label()
         Me.TextBox8 = New System.Windows.Forms.TextBox()
         Me.Label8 = New System.Windows.Forms.Label()
-        Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
@@ -143,19 +144,29 @@ Partial Class Form2
         Me.Label8.TabIndex = 14
         Me.Label8.Text = "Apellido Paterno:"
         '
-        'DateTimePicker1
+        'TextBox2
         '
-        Me.DateTimePicker1.Location = New System.Drawing.Point(175, 201)
-        Me.DateTimePicker1.Name = "DateTimePicker1"
-        Me.DateTimePicker1.Size = New System.Drawing.Size(200, 20)
-        Me.DateTimePicker1.TabIndex = 16
+        Me.TextBox2.Location = New System.Drawing.Point(174, 198)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox2.TabIndex = 16
+        '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(441, 75)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.TabIndex = 17
+        Me.Button1.Text = "añadir"
+        Me.Button1.UseVisualStyleBackColor = True
         '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Controls.Add(Me.DateTimePicker1)
+        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.TextBox8)
         Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.TextBox7)
@@ -189,5 +200,6 @@ Partial Class Form2
     Friend WithEvents Label7 As Label
     Friend WithEvents TextBox8 As TextBox
     Friend WithEvents Label8 As Label
-    Friend WithEvents DateTimePicker1 As DateTimePicker
+    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents Button1 As Button
 End Class
