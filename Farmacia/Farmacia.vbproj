@@ -157,5 +157,41 @@
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lado.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo 4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\marca.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modelo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\marca %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\marca %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\marca %284%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modelo %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\marca.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modelo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pais.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pais %281%29.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
