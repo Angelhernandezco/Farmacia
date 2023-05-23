@@ -12,4 +12,9 @@
     Private Sub Label2_Click(sender As Object, e As EventArgs) 
 
     End Sub
+
+    Private Sub CatálogosToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CatálogosToolStripMenuItem.Click
+        Form4.Show()
+
+    End Sub
 End Class
