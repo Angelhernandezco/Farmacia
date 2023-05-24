@@ -23,37 +23,12 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
         Me.ToolStripStatusLabel1 = New System.Windows.Forms.ToolStripStatusLabel()
         Me.ToolStripStatusLabel2 = New System.Windows.Forms.ToolStripStatusLabel()
-        Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
-        Me.RegistrosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.RegistroDeClientesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.RegistroDeProveedoresToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.CatálogosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.InventarioToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.CompraYVentaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.CompraToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.VentaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ToolStrip1 = New System.Windows.Forms.ToolStrip()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.StatusStrip1.SuspendLayout()
-        Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.BackColor = System.Drawing.Color.Transparent
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 48.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label1.Location = New System.Drawing.Point(189, 66)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(307, 73)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Farmacia"
         '
         'StatusStrip1
         '
@@ -76,73 +51,6 @@ Partial Class Form1
         Me.ToolStripStatusLabel2.Size = New System.Drawing.Size(119, 17)
         Me.ToolStripStatusLabel2.Text = "ToolStripStatusLabel2"
         '
-        'MenuStrip1
-        '
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.RegistrosToolStripMenuItem, Me.CatálogosToolStripMenuItem, Me.InventarioToolStripMenuItem, Me.CompraYVentaToolStripMenuItem})
-        Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
-        Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(828, 24)
-        Me.MenuStrip1.TabIndex = 2
-        Me.MenuStrip1.Text = "MenuStrip1"
-        '
-        'RegistrosToolStripMenuItem
-        '
-        Me.RegistrosToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.RegistroDeClientesToolStripMenuItem, Me.RegistroDeProveedoresToolStripMenuItem})
-        Me.RegistrosToolStripMenuItem.Name = "RegistrosToolStripMenuItem"
-        Me.RegistrosToolStripMenuItem.Size = New System.Drawing.Size(67, 20)
-        Me.RegistrosToolStripMenuItem.Text = "Registros"
-        '
-        'RegistroDeClientesToolStripMenuItem
-        '
-        Me.RegistroDeClientesToolStripMenuItem.Name = "RegistroDeClientesToolStripMenuItem"
-        Me.RegistroDeClientesToolStripMenuItem.Size = New System.Drawing.Size(201, 22)
-        Me.RegistroDeClientesToolStripMenuItem.Text = "Registro de clientes"
-        '
-        'RegistroDeProveedoresToolStripMenuItem
-        '
-        Me.RegistroDeProveedoresToolStripMenuItem.Name = "RegistroDeProveedoresToolStripMenuItem"
-        Me.RegistroDeProveedoresToolStripMenuItem.Size = New System.Drawing.Size(201, 22)
-        Me.RegistroDeProveedoresToolStripMenuItem.Text = "Registro de proveedores"
-        '
-        'CatálogosToolStripMenuItem
-        '
-        Me.CatálogosToolStripMenuItem.Name = "CatálogosToolStripMenuItem"
-        Me.CatálogosToolStripMenuItem.Size = New System.Drawing.Size(72, 20)
-        Me.CatálogosToolStripMenuItem.Text = "Catálogos"
-        '
-        'InventarioToolStripMenuItem
-        '
-        Me.InventarioToolStripMenuItem.Name = "InventarioToolStripMenuItem"
-        Me.InventarioToolStripMenuItem.Size = New System.Drawing.Size(72, 20)
-        Me.InventarioToolStripMenuItem.Text = "Inventario"
-        '
-        'CompraYVentaToolStripMenuItem
-        '
-        Me.CompraYVentaToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CompraToolStripMenuItem, Me.VentaToolStripMenuItem})
-        Me.CompraYVentaToolStripMenuItem.Name = "CompraYVentaToolStripMenuItem"
-        Me.CompraYVentaToolStripMenuItem.Size = New System.Drawing.Size(103, 20)
-        Me.CompraYVentaToolStripMenuItem.Text = "Compra y venta"
-        '
-        'CompraToolStripMenuItem
-        '
-        Me.CompraToolStripMenuItem.Name = "CompraToolStripMenuItem"
-        Me.CompraToolStripMenuItem.Size = New System.Drawing.Size(117, 22)
-        Me.CompraToolStripMenuItem.Text = "Compra"
-        '
-        'VentaToolStripMenuItem
-        '
-        Me.VentaToolStripMenuItem.Name = "VentaToolStripMenuItem"
-        Me.VentaToolStripMenuItem.Size = New System.Drawing.Size(117, 22)
-        Me.VentaToolStripMenuItem.Text = "Venta"
-        '
-        'ToolStrip1
-        '
-        Me.ToolStrip1.Location = New System.Drawing.Point(0, 24)
-        Me.ToolStrip1.Name = "ToolStrip1"
-        Me.ToolStrip1.Size = New System.Drawing.Size(828, 25)
-        Me.ToolStrip1.TabIndex = 3
-        Me.ToolStrip1.Text = "ToolStrip1"
-        '
         'Timer1
         '
         Me.Timer1.Enabled = True
@@ -151,37 +59,18 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.ClientSize = New System.Drawing.Size(828, 523)
-        Me.Controls.Add(Me.ToolStrip1)
         Me.Controls.Add(Me.StatusStrip1)
-        Me.Controls.Add(Me.MenuStrip1)
-        Me.Controls.Add(Me.Label1)
-        Me.MainMenuStrip = Me.MenuStrip1
         Me.Name = "Form1"
         Me.Text = "Form1"
         Me.StatusStrip1.ResumeLayout(False)
         Me.StatusStrip1.PerformLayout()
-        Me.MenuStrip1.ResumeLayout(False)
-        Me.MenuStrip1.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
-
-    Friend WithEvents Label1 As Label
     Friend WithEvents StatusStrip1 As StatusStrip
-    Friend WithEvents MenuStrip1 As MenuStrip
-    Friend WithEvents ToolStrip1 As ToolStrip
     Friend WithEvents Timer1 As Timer
     Friend WithEvents ToolStripStatusLabel1 As ToolStripStatusLabel
     Friend WithEvents ToolStripStatusLabel2 As ToolStripStatusLabel
-    Friend WithEvents RegistrosToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents RegistroDeClientesToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents RegistroDeProveedoresToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents CatálogosToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents InventarioToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents CompraYVentaToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents CompraToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents VentaToolStripMenuItem As ToolStripMenuItem
 End Class

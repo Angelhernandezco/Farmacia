@@ -4,7 +4,7 @@
         ToolStripStatusLabel2.Text = DateTime.Now.ToLongDateString()
     End Sub
 
-    Private Sub RegistroDeClientesToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles RegistroDeClientesToolStripMenuItem.Click
+    Private Sub RegistroDeClientesToolStripMenuItem_Click(sender As Object, e As EventArgs)
         Form2.Show()
 
     End Sub
@@ -13,8 +13,12 @@
 
     End Sub
 
-    Private Sub CatálogosToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CatálogosToolStripMenuItem.Click
+    Private Sub CatálogosToolStripMenuItem_Click(sender As Object, e As EventArgs)
         Form4.Show()
+
+    End Sub
+
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
 End Class
