@@ -117,62 +117,25 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="close icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\close icon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="PictureBox2.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1
+        MAAA6mAAADqYAAAXcJy6UTwAAAAJcEhZcwAADsAAAA7AAWrWiQkAAAAHdElNRQfnBRgVEjIwFjFSAAAA
+        XklEQVRoQ+3UwQnAIBAEQEtIo7GbtKs5A/pJA7k4A4uKnxXUAgAAADvrvafMKt9ae21+PbPzM4kcsaiR
+        K0nq6Dy6zxOdkWxG558cIOsVijHvI55ZP1HGAAAAwL5KuQE+vvvmmX3hWAAAAABJRU5ErkJggg==
+</value>
   </data>
-  <data name="marca (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\marca (2).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pais (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pais (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="marca" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\marca.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="minimize icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\minimize icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="minimize icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\minimize icon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="modelo (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\modelo (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="modelo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\modelo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="fondo 4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\fondo 4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="fondo login" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\fondo login.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pais" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pais.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="lado" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\lado.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="marca (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\marca (3).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="marca1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\marca.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="modelo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\modelo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="close icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\close icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="marca (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\marca (4).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="close icon2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\close icon2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="minimize icon2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\minimize icon2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="PictureBox1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1
+        MAAA6mAAADqYAAAXcJy6UTwAAAAJcEhZcwAADsAAAA7AAWrWiQkAAAAHdElNRQfnBRgVDhuU0/RjAAAB
+        SklEQVRoQ+2Y7Y3CMBBE0ws10AGV0wi/qCPMRF40ihzLX4ptaZ/0dHfBmZ3N8Qc2x3Ecx3FWYN/3qK3E
+        Mml3JPwBn/J3OFGOZkBmMrsp85IQzAFv+IGvcK1qoN4LmcVMZh9LdIehkE+Jg0j1EnoPtPKEP4//bncY
+        GjwPLFpCz8LLrO5YcLBqCT0DqzKa0AGwqIC+Bu8vb+ggmFVEr8Fx5Q0dCJOFTo4vb+hgmLPEPOUNLQBT
+        Becrb2gRGCs6b3lDC0Et/A2SOcsbWgyyqBUn/H3e8kTLwbUW0GKQRdd5C2khqOWtcOza/56haBGYKjrf
+        EloAJgsG51lCB8Oc8ub4JXQgzCqk1+C4JXQQLCqir8H7l9ABsKqAnoH3LiHhTYP1LLzM6k4IXv5D/fJf
+        q1AOOJ6SWYtmQGYe5Wl3LPhsK7FM6jiO4zjO/GzbD8GPXj/GooudAAAAAElFTkSuQmCC
+</value>
   </data>
 </root>

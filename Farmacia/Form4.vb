@@ -24,4 +24,24 @@ Public Class Form4
     Private Sub Panel4_MouseLeave(sender As Object, e As EventArgs) Handles Panel4.MouseLeave
         Panel4.Size = New Size(82, 87)
     End Sub
+
+    Private Sub CategoriaBindingNavigatorSaveItem_Click(sender As Object, e As EventArgs)
+        Me.Validate()
+
+        Me.TableAdapterManager.UpdateAll(Me.Database21DataSet)
+
+    End Sub
+
+    Private Sub InventarioBindingNavigatorSaveItem_Click(sender As Object, e As EventArgs) Handles InventarioBindingNavigatorSaveItem.Click
+        Me.Validate()
+        Me.InventarioBindingSource.EndEdit()
+        Me.TableAdapterManager.UpdateAll(Me.Database21DataSet)
+
+    End Sub
+
+    Private Sub Form4_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        'TODO: esta línea de código carga datos en la tabla 'Database21DataSet.Inventario' Puede moverla o quitarla según sea necesario.
+        Me.InventarioTableAdapter.Fill(Me.Database21DataSet.Inventario)
+
+    End Sub
 End Class
