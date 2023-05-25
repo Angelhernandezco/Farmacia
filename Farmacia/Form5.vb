@@ -1,6 +1,6 @@
 ﻿Imports System.Runtime.InteropServices
 
-Public Class Form5
+Public Class form5
 #Region "form behaviors"
     Private Sub Button1_Click(sender As Object, e As EventArgs)
         Form1.Show()
